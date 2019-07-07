@@ -7,6 +7,8 @@ include_directories(Magicspell)
 #add_executable (SockMerchant "SockMerchant.cpp" )
 #add_executable (CountingValleys "CountingValleys.cpp" )
 #add_executable (JumpingCloud "JumpingCloud.cpp" )
-add_executable (RepeatStrings "RepeatStrings.cpp")
+# add_executable (RepeatStrings "RepeatStrings.cpp")
+#add_executable (MinAbsDiff "MinAbsDiff.cpp")
+add_executable (LuckBalance "LuckBalance.cpp")
 
 # TODO: Add tests and install targets if needed.
