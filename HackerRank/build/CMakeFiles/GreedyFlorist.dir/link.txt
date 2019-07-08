@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/GreedyFlorist.dir/GreedyFlorist.cpp.o  -o GreedyFlorist 

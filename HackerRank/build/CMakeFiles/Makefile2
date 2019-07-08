@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /home/gane_dev/CPP/HackerRank
 CMAKE_BINARY_DIR = /home/gane_dev/CPP/HackerRank/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/LuckBalance.dir
+# Target rules for target CMakeFiles/GreedyFlorist.dir
 
 # All Build rule for target.
-CMakeFiles/LuckBalance.dir/all:
-	$(MAKE) -f CMakeFiles/LuckBalance.dir/build.make CMakeFiles/LuckBalance.dir/depend
-	$(MAKE) -f CMakeFiles/LuckBalance.dir/build.make CMakeFiles/LuckBalance.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gane_dev/CPP/HackerRank/build/CMakeFiles --progress-num=1,2 "Built target LuckBalance"
-.PHONY : CMakeFiles/LuckBalance.dir/all
+CMakeFiles/GreedyFlorist.dir/all:
+	$(MAKE) -f CMakeFiles/GreedyFlorist.dir/build.make CMakeFiles/GreedyFlorist.dir/depend
+	$(MAKE) -f CMakeFiles/GreedyFlorist.dir/build.make CMakeFiles/GreedyFlorist.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gane_dev/CPP/HackerRank/build/CMakeFiles --progress-num=1,2 "Built target GreedyFlorist"
+.PHONY : CMakeFiles/GreedyFlorist.dir/all
 
 # Include target in all.
-all: CMakeFiles/LuckBalance.dir/all
+all: CMakeFiles/GreedyFlorist.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/LuckBalance.dir/rule: cmake_check_build_system
+CMakeFiles/GreedyFlorist.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gane_dev/CPP/HackerRank/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LuckBalance.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GreedyFlorist.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gane_dev/CPP/HackerRank/build/CMakeFiles 0
-.PHONY : CMakeFiles/LuckBalance.dir/rule
+.PHONY : CMakeFiles/GreedyFlorist.dir/rule
 
 # Convenience name for target.
-LuckBalance: CMakeFiles/LuckBalance.dir/rule
+GreedyFlorist: CMakeFiles/GreedyFlorist.dir/rule
 
-.PHONY : LuckBalance
-
-# clean rule for target.
-CMakeFiles/LuckBalance.dir/clean:
-	$(MAKE) -f CMakeFiles/LuckBalance.dir/build.make CMakeFiles/LuckBalance.dir/clean
-.PHONY : CMakeFiles/LuckBalance.dir/clean
+.PHONY : GreedyFlorist
 
 # clean rule for target.
-clean: CMakeFiles/LuckBalance.dir/clean
+CMakeFiles/GreedyFlorist.dir/clean:
+	$(MAKE) -f CMakeFiles/GreedyFlorist.dir/build.make CMakeFiles/GreedyFlorist.dir/clean
+.PHONY : CMakeFiles/GreedyFlorist.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/GreedyFlorist.dir/clean
 
 .PHONY : clean
 

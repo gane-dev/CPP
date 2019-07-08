@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gane_dev/CPP/HackerRank/GreedyFlorist.cpp
+string
+-
+iostream
+-
+vector
+-
+algorithm
+-
+

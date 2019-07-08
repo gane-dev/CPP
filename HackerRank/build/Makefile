@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LuckBalance
+# Target rules for targets named GreedyFlorist
 
 # Build rule for target.
-LuckBalance: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LuckBalance
-.PHONY : LuckBalance
+GreedyFlorist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GreedyFlorist
+.PHONY : GreedyFlorist
 
 # fast build rule for target.
-LuckBalance/fast:
-	$(MAKE) -f CMakeFiles/LuckBalance.dir/build.make CMakeFiles/LuckBalance.dir/build
-.PHONY : LuckBalance/fast
+GreedyFlorist/fast:
+	$(MAKE) -f CMakeFiles/GreedyFlorist.dir/build.make CMakeFiles/GreedyFlorist.dir/build
+.PHONY : GreedyFlorist/fast
 
-LuckBalance.o: LuckBalance.cpp.o
+GreedyFlorist.o: GreedyFlorist.cpp.o
 
-.PHONY : LuckBalance.o
+.PHONY : GreedyFlorist.o
 
 # target to build an object file
-LuckBalance.cpp.o:
-	$(MAKE) -f CMakeFiles/LuckBalance.dir/build.make CMakeFiles/LuckBalance.dir/LuckBalance.cpp.o
-.PHONY : LuckBalance.cpp.o
+GreedyFlorist.cpp.o:
+	$(MAKE) -f CMakeFiles/GreedyFlorist.dir/build.make CMakeFiles/GreedyFlorist.dir/GreedyFlorist.cpp.o
+.PHONY : GreedyFlorist.cpp.o
 
-LuckBalance.i: LuckBalance.cpp.i
+GreedyFlorist.i: GreedyFlorist.cpp.i
 
-.PHONY : LuckBalance.i
+.PHONY : GreedyFlorist.i
 
 # target to preprocess a source file
-LuckBalance.cpp.i:
-	$(MAKE) -f CMakeFiles/LuckBalance.dir/build.make CMakeFiles/LuckBalance.dir/LuckBalance.cpp.i
-.PHONY : LuckBalance.cpp.i
+GreedyFlorist.cpp.i:
+	$(MAKE) -f CMakeFiles/GreedyFlorist.dir/build.make CMakeFiles/GreedyFlorist.dir/GreedyFlorist.cpp.i
+.PHONY : GreedyFlorist.cpp.i
 
-LuckBalance.s: LuckBalance.cpp.s
+GreedyFlorist.s: GreedyFlorist.cpp.s
 
-.PHONY : LuckBalance.s
+.PHONY : GreedyFlorist.s
 
 # target to generate assembly for a file
-LuckBalance.cpp.s:
-	$(MAKE) -f CMakeFiles/LuckBalance.dir/build.make CMakeFiles/LuckBalance.dir/LuckBalance.cpp.s
-.PHONY : LuckBalance.cpp.s
+GreedyFlorist.cpp.s:
+	$(MAKE) -f CMakeFiles/GreedyFlorist.dir/build.make CMakeFiles/GreedyFlorist.dir/GreedyFlorist.cpp.s
+.PHONY : GreedyFlorist.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... LuckBalance"
+	@echo "... GreedyFlorist"
 	@echo "... edit_cache"
-	@echo "... LuckBalance.o"
-	@echo "... LuckBalance.i"
-	@echo "... LuckBalance.s"
+	@echo "... GreedyFlorist.o"
+	@echo "... GreedyFlorist.i"
+	@echo "... GreedyFlorist.s"
 .PHONY : help
 
 

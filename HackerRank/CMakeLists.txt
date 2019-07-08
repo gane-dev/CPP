@@ -9,6 +9,6 @@ include_directories(Magicspell)
 #add_executable (JumpingCloud "JumpingCloud.cpp" )
 # add_executable (RepeatStrings "RepeatStrings.cpp")
 #add_executable (MinAbsDiff "MinAbsDiff.cpp")
-add_executable (LuckBalance "LuckBalance.cpp")
-
+# add_executable (LuckBalance "LuckBalance.cpp")
+add_executable (GreedyFlorist "GreedyFlorist.cpp")
 # TODO: Add tests and install targets if needed.
