@@ -12,5 +12,6 @@ include_directories(Magicspell)
 # add_executable (LuckBalance "LuckBalance.cpp")
 # add_executable (GreedyFlorist "GreedyFlorist.cpp")
 #add_executable (IceCream "IceCream.cpp")
-add_executable (BalancedBrackets "BalancedBrackets.cpp")
+#add_executable (BalancedBrackets "BalancedBrackets.cpp")
+add_executable (LargestRectangle "LargestRectangle.cpp")
 # TODO: Add tests and install targets if needed.
