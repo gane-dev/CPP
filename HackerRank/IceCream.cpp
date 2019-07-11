@@ -2,30 +2,33 @@
 #include<iostream>
 #include <vector>
 #include<algorithm>
+#include<map>
 using namespace std;
 
 void whatFlavors(vector<int> cost, int money) {
-
+	map<int, int> creamids;
 	int length = cost.size();;
 	int sum = 0;
-	for (int i = 1; i < length; i++)
+	for (int i = 0; i < length; i++)
 	{
-		for (int j = i + 1; j <= length; j++)
+		int icecream_cost = cost[i];
+		int othercost = money - icecream_cost;
+		
+		if (creamids.find(othercost) != creamids.end())
 		{
-			if (cost[i] + cost[j] == money)
-			{
-				cout << i << " " << j;
-				return;
-			}
-
+			cout << creamids[othercost] << " " << i+1 << endl;
+			return;
 		}
-
+		
+		if (creamids.find(icecream_cost) == creamids.end())
+			creamids.emplace(icecream_cost, i+1);
+		
 	}
 }
 int main()
 {
 
-	vector<int> arr = {0, 1, 4, 5, 3, 2 };
+	vector<int> arr = { 1, 4, 5, 3, 2 };
 		
 	int d = 4;
 	whatFlavors(arr,d );

@@ -14,5 +14,7 @@ include_directories(Magicspell)
 #add_executable (IceCream "IceCream.cpp")
 #add_executable (BalancedBrackets "BalancedBrackets.cpp")
 #add_executable (LargestRectangle "LargestRectangle.cpp")
-add_executable (MinMaxRiddle "MinMaxRiddle.cpp")
+#add_executable (MinMaxRiddle "MinMaxRiddle.cpp")
+#add_executable (Pairs "Pairs.cpp")
+add_executable (MaxArraySum "MaxArraySum.cpp")
 # TODO: Add tests and install targets if needed.
